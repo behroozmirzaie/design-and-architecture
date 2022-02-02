@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.24 seconds.
+Conversion time: 0.284 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 02 2022 02:16:49 GMT-0800 (PST)
+* Wed Feb 02 2022 02:22:23 GMT-0800 (PST)
 * Source doc: Caching
 ----->
 
@@ -29,3 +29,28 @@ Conversion notes:
 <p dir="rtl">
 در computing،  کش یک لایه ذخیره سازی داده با سرعت بالا است که زیر مجموعه ای از داده ها را ذخیره می کند.معمولاً ماهیت گذرا دارد، به طوری که درخواست‌های آینده برای آن داده‌ها سریع‌تر از آنچه که با دسترسی به مکان ذخیره‌سازی اولیه داده ممکن است، ارائه می‌شوند.ذخیره سازی به شما امکان می دهد تا به طور موثر از داده های بازیابی یا محاسبه شده قبلی استفاده مجدد کنید.</p>
 
+
+<p dir="rtl">
+۲- آیا Redis فقط یک کش است؟</p>
+
+
+<p dir="rtl">
+مانند کش کردن Redis امکان میدهد:</p>
+
+
+
+
+* in memory key-value storage
+
+<p dir="rtl">
+برخلاف کش کردن: </p>
+
+
+
+
+* پشتیبانی از چند نوع datatype مانند strings,hashes,lists, sets, sorted sets, bimaps, ..
+* قابلیتی را میده که داده های که قصد کش کردن داریم را در physcial storage ذخیره کنیم(اگر نیازبود)
+* از مدل pub-sub پشتیبانی می کند
+* حافظه نهان Redis برای دسترسی بالا امکان replication را فراهم می کند(master/slave)
+* از اسکریپت های فوق سریع LUA پشتیبانی می کند. زمان اجرای آن برابر با اجرای دستورات C است.
+* می تواند در چندین instance از برنامه به اشتراک گذاشته شود
