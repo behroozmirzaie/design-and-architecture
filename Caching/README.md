@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.405 seconds.
+Conversion time: 0.359 seconds.
 
 
 Using this Markdown file:
@@ -17,9 +17,8 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 02 2022 02:36:19 GMT-0800 (PST)
+* Wed Feb 02 2022 02:58:07 GMT-0800 (PST)
 * Source doc: Caching
-* This is a partial selection. Check to make sure intra-doc links work.
 ----->
 
 
@@ -83,3 +82,17 @@ There are only two hard things in Computer Science: cache invalidation and namin
 <p dir="rtl">
 Cache invalidation بهترین حالت را به ما میده. هم میتونیم TTLs خیلی طولانی داشته باشیم و وقتی محتوا مقدار کمی تغییر کند میتونه از طریق cache ارائه کند. در همان زمان، زمانی که داده ها تغییر می کنند، آن تغییر بدون تاخیر در نمایش های وب منعکس می شود.</p>
 
+
+<p dir="rtl">
+۵- چه داده های معمولا باید cache شوند؟ </p>
+
+
+<p dir="rtl">
+گزینه های زیر فرآیند های خوبی برای cache کردن هستند: </p>
+
+
+
+
+* پرس و جوهای طولانی مدت در پایگاه های داده
+* درخواست های شبکه با تاخیر بالا(برای APIs خارجی)
+* پردازش محاسبات های فشرد
