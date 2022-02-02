@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.284 seconds.
+Conversion time: 0.379 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 02 2022 02:22:23 GMT-0800 (PST)
+* Wed Feb 02 2022 02:30:57 GMT-0800 (PST)
 * Source doc: Caching
 ----->
 
@@ -54,3 +54,11 @@ Conversion notes:
 * حافظه نهان Redis برای دسترسی بالا امکان replication را فراهم می کند(master/slave)
 * از اسکریپت های فوق سریع LUA پشتیبانی می کند. زمان اجرای آن برابر با اجرای دستورات C است.
 * می تواند در چندین instance از برنامه به اشتراک گذاشته شود
+
+<p dir="rtl">
+۳- Resultset Caching چیست؟</p>
+
+
+<p dir="rtl">
+Resultset Caching نتایج یک پرس و جو پایگاه داده را به همراه پرس و جو در برنامه ذخیره می کند. هر بار که یک صفحه وب یک پرس و جو ایجاد می کند، برنامه‌ها بررسی می‌کنند که آیا نتایج قبلاً ذخیره شده‌اند یا نه، و اگر هستند، به جای آن، آنها را از مجموعه داده‌های درون حافظه بیرون می‌کشند. application هنوز باید صفحه را رندر کند.</p>
+
