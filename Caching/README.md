@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.379 seconds.
+Conversion time: 0.405 seconds.
 
 
 Using this Markdown file:
@@ -17,8 +17,9 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 02 2022 02:30:57 GMT-0800 (PST)
+* Wed Feb 02 2022 02:36:19 GMT-0800 (PST)
 * Source doc: Caching
+* This is a partial selection. Check to make sure intra-doc links work.
 ----->
 
 
@@ -61,4 +62,24 @@ Conversion notes:
 
 <p dir="rtl">
 Resultset Caching نتایج یک پرس و جو پایگاه داده را به همراه پرس و جو در برنامه ذخیره می کند. هر بار که یک صفحه وب یک پرس و جو ایجاد می کند، برنامه‌ها بررسی می‌کنند که آیا نتایج قبلاً ذخیره شده‌اند یا نه، و اگر هستند، به جای آن، آنها را از مجموعه داده‌های درون حافظه بیرون می‌کشند. application هنوز باید صفحه را رندر کند.</p>
+
+
+<p dir="rtl">
+۴- عدم اعتبار کش چیست؟ (Cache Invalidation)</p>
+
+
+<p dir="rtl">
+There are only two hard things in Computer Science: cache invalidation and naming things.</p>
+
+
+<p dir="rtl">
+– Phil Karlton</p>
+
+
+<p dir="rtl">
+کش HTTP راه حلی برای بهبود عملکرد برنامه وب شما است. برای load کمتر بر روی برنامه و سریع ترین زمان پاسخ، می خواهید محتوا را برای مدت طولانی (TTL) در cache  ذخیره کنید. اما در عین حال، شما می خواهید که مشتریان شما به محض اینکه به روز رسانی شد، محتوای جدید  (<em>validate the freshness</em>) را مشاهده کنند.</p>
+
+
+<p dir="rtl">
+Cache invalidation بهترین حالت را به ما میده. هم میتونیم TTLs خیلی طولانی داشته باشیم و وقتی محتوا مقدار کمی تغییر کند میتونه از طریق cache ارائه کند. در همان زمان، زمانی که داده ها تغییر می کنند، آن تغییر بدون تاخیر در نمایش های وب منعکس می شود.</p>
 
