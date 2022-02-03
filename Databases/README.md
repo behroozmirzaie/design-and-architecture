@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.245 seconds.
+Conversion time: 0.293 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 13:04:17 GMT-0800 (PST)
+* Thu Feb 03 2022 13:10:30 GMT-0800 (PST)
 * Source doc: Databases
 ----->
 
@@ -81,6 +81,29 @@ DDL: دستوراتی هستند که برای تعریف پایگاه داده 
 
 <p dir="rtl">
 DML:  دستوراتی هستند که برای دستکاری داده ها استفاده می شوند. INSERT، UPDATE و DELETE برخی از دستورات رایج DML هستند.</p>
+
+
+
+---
+
+<p dir="rtl">
+۴- خصوصیات ACID را توضیح دهید. </p>
+
+
+<p dir="rtl">
+اول) Atomicity: این قانون همه یا هیچ را برای تغییرات پایگاه داده تضمین می کند.(all-or-none)</p>
+
+
+<p dir="rtl">
+دوم) Consistency: مقادیر داده در سرتاسر پایگاه داده یکسان است.</p>
+
+
+<p dir="rtl">
+سوم) Isolation: گفته می شود که دو transactions مستقل از یکدیگر هستند.</p>
+
+
+<p dir="rtl">
+چهارم) Durability: داده ها حتی در زمان خرابی سرور از بین نمی روند.</p>
 
 
 
