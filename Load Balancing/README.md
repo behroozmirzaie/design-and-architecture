@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.693 seconds.
+Conversion time: 0.495 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 01:14:34 GMT-0800 (PST)
+* Thu Feb 03 2022 01:16:22 GMT-0800 (PST)
 * Source doc: Load Balancing
 ----->
 
@@ -182,4 +182,17 @@ Load balancer درخواست های دریافتی client  را در منابع 
 * درخواست های ورودی را بین سرور ها توزیع می کند(load balancing)
 * محتواها را فشرده، بهینه میکند که باعث افزایش سرعت load می شود.
 * تست چند متغیره و A/B تست  را بدون درج جاوا اسکریپت در صفحات انجام می دهد.
-* از حمله DDoS  و سایر موارد امنیتی محافظت میکند. 
+* از حمله DDoS  و سایر موارد امنیتی محافظت میکند.
+
+<p dir="rtl">
+۹- چند معیار برای مسیریابی ترافیک نام ببرید. ( traffic routing)</p>
+
+
+
+
+* Random
+* Least loaded
+* Session/cookies
+* Layer 4
+* Round robin or weighted round robin
+* Layer 7
