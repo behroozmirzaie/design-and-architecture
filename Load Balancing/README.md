@@ -63,4 +63,4 @@ Load balancing  تکنیک ساده ای برای توزیع load  در چندی
 
 <p dir="rtl">
 یکی از ساده ترین روش ها برای توزیع درخواست های client بین گروهی از سرور هاست. زمانی که گروهی از سرور ها در دسترس نیستند round-robin درخواست client را به  سروری که نوبتش هست میفرسته. زمانی که به پایان لیستش برسه، load balancer این حلقه را تکرار میکنه. </p>
-![Round Robin](round-robin.png)
+![Round Robin](https://github.com/behroozmirzaie7/design-and-architecture/blob/feature/add_load_balancing/Load%20Balancing/round-robin.png?raw=true)
