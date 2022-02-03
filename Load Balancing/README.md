@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.269 seconds.
+Conversion time: 0.208 seconds.
 
 
 Using this Markdown file:
@@ -17,8 +17,9 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 02 2022 20:55:12 GMT-0800 (PST)
+* Wed Feb 02 2022 22:03:53 GMT-0800 (PST)
 * Source doc: Load Balancing
+* This is a partial selection. Check to make sure intra-doc links work.
 ----->
 
 
@@ -55,3 +56,11 @@ Load balancing  تکنیک ساده ای برای توزیع load  در چندی
 <p dir="rtl">
 سوم) IP Address affinity</p>
 
+
+<p dir="rtl">
+۲- تکنیک Round robin چیست؟ </p>
+
+
+<p dir="rtl">
+یکی از ساده ترین روش ها برای توزیع درخواست های client بین گروهی از سرور هاست. زمانی که گروهی از سرور ها در دسترس نیستند round-robin درخواست client را به  سروری که نوبتش هست میفرسته. زمانی که به پایان لیستش برسه، load balancer این حلقه را تکرار میکنه. </p>
+![Round Robin](round-robin.png)
