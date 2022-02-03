@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.251 seconds.
+Conversion time: 0.261 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 12:58:29 GMT-0800 (PST)
+* Thu Feb 03 2022 13:00:09 GMT-0800 (PST)
 * Source doc: Databases
 ----->
 
@@ -45,61 +45,28 @@ Conversion notes:
 مزایای NoSQL نسبت به RDBMS ها عبارتند از:</p>
 
 
-<p dir="rtl">
-از داده های نیمه ساختاریافته و داده های فرار پشتیبانی می کند</p>
 
 
-<p dir="rtl">
-اسکیما ندارد (schema)</p>
-
-
-<p dir="rtl">
-توان خواندن/نوشتن بسیار بالاست</p>
-
-
-<p dir="rtl">
-مقیاس پذیری افقی را می توان به راحتی به دست آورد (Horizontal scalability)</p>
-
-
-<p dir="rtl">
-از داده های بزرگ در حجم ترابایت و پتا بایت پشتیبانی می کند</p>
-
-
-<p dir="rtl">
-در داده های بزرگ ابزار از ابزار تحلیلی به خوبی پشتیبانی می کند.</p>
-
-
-<p dir="rtl">
-می توان در مکانیزم های  سخت افزاری ارزان تر استفاده کرد </p>
-
-
-<p dir="rtl">
-گزینه ذخیره سازی درون حافظه برای افزایش عملکرد پرس و جوها در دسترس است ( in memory caching)</p>
-
-
-<p dir="rtl">
-چرخه عمر توسعه سریعتر برای توسعه دهندگان (Faster development life cycles for developers)</p>
-
+* از داده های نیمه ساختاریافته و داده های فرار پشتیبانی می کند
+* اسکیما ندارد (schema)
+* توان خواندن/نوشتن بسیار بالاست
+* مقیاس پذیری افقی را می توان به راحتی به دست آورد (Horizontal scalability)
+* از داده های بزرگ در حجم ترابایت و پتا بایت پشتیبانی می کند
+* در داده های بزرگ ابزار از ابزار تحلیلی به خوبی پشتیبانی می کند.
+* می توان در مکانیزم های  سخت افزاری ارزان تر استفاده کرد
+* گزینه ذخیره سازی درون حافظه برای افزایش عملکرد پرس و جوها در دسترس است ( in memory caching)
+* چرخه عمر توسعه سریعتر برای توسعه دهندگان (Faster development life cycles for developers)
 
 <p dir="rtl">
 مزایایی استفاده از RDBMS ها نسبت به NoSQL ها:</p>
 
 
-<p dir="rtl">
-تراکنش ها با خصوصیات ACID و atomicity, consistency , isolation & durability</p>
 
 
-<p dir="rtl">
-پایبندی به Schema </p>
-
-
-<p dir="rtl">
-مدیریت query  در real time  (در صورتی که  اندازه داده ها کمتر از 10 ترا بایت باشد.)</p>
-
-
-<p dir="rtl">
-اجرای query های پیچیده شامل join و group by </p>
-
+* تراکنش ها با خصوصیات ACID و atomicity, consistency , isolation & durability
+* پایبندی به Schema
+* مدیریت query  در real time  (در صورتی که  اندازه داده ها کمتر از 10 ترا بایت باشد.)
+* اجرای query های پیچیده شامل join و group by
 
 
 ---
