@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.495 seconds.
+Conversion time: 0.64 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 01:16:22 GMT-0800 (PST)
+* Thu Feb 03 2022 01:27:02 GMT-0800 (PST)
 * Source doc: Load Balancing
 ----->
 
@@ -196,3 +196,15 @@ Load balancer درخواست های دریافتی client  را در منابع 
 * Layer 4
 * Round robin or weighted round robin
 * Layer 7
+
+<p dir="rtl">
+۱۰- تفاوت لایه ۴ و لایه ۷ در load balancing چیست؟ </p>
+
+
+<p dir="rtl">
+Load balance کردن در لایه ۴ در لایه انتقال میانی عمل می کند( transport layer), که با ارسال پیام ها بدون توجه به محتوای پیام ها سروکار دارد. پروتکل TCP  در لایه ۴ قرار دارد و برایHTTP استفاده میشود. Load balancer های لایه ۴ پکت های شبکه را بدون اینکه از محتوای آنها اطلاعاتی داشته باشندبه سرور ها انتقال می دهند. با بررسی تعداد کمی از پکت ها میتونند مسیریابی را انجام دهند.</p>
+
+
+<p dir="rtl">
+Load balance کردن در لایه ۷ در لایه اپلیکیشن انجام می شود. که در واقع با محتوای واقعی هر پیغام سرو کار دارد.پروتکل  HTTP لایه 7 معمولا برای ترافیک وب سایت در اینترنت است. Load balance های که در لایه ۷ قرار دارند برای مسیریابی ترافیک شبکه پیچدگی های بیشتری نسبت به لایه ۴ دارند، مخصوصا در ترافیک های TCP مثل HTTP. یک load balancer لایه 7 ترافیک شبکه را خاتمه (terminate)  می کند و پیام درون انها را می خواند. این کار باعث میشه که load balaning بتونه بر اساس پیغام تصمیم بگیره (مثلا URL و یا cookie). بعدش  یک اتصال TCP جدید به سرور بالادستی انتخاب شده ایجاد می کند و  درخواست را در سرور می نویسد.</p>
+
