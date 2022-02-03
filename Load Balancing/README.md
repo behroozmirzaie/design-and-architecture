@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.208 seconds.
+Conversion time: 0.334 seconds.
 
 
 Using this Markdown file:
@@ -17,9 +17,8 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 02 2022 22:03:53 GMT-0800 (PST)
+* Wed Feb 02 2022 22:25:24 GMT-0800 (PST)
 * Source doc: Load Balancing
-* This is a partial selection. Check to make sure intra-doc links work.
 ----->
 
 
@@ -64,4 +63,17 @@ Load balancing  تکنیک ساده ای برای توزیع load  در چندی
 <p dir="rtl">
 یکی از ساده ترین روش ها برای توزیع درخواست های client بین گروهی از سرور هاست. زمانی که گروهی از سرور ها در دسترس نیستند round-robin درخواست client را به  سروری که نوبتش هست میفرسته. زمانی که به پایان لیستش برسه، load balancer این حلقه را تکرار میکنه. </p>
 
+
 ![](https://raw.githubusercontent.com/behroozmirzaie7/design-and-architecture/feature/add_load_balancing/Load%20Balancing/round-robin.png)
+
+<p dir="rtl">
+۳- برخی از محاسن Round Robin را توضیح دهید. </p>
+
+
+<p dir="rtl">
+مهم ترین سود استفاده از round-robin راحتی پیاده سازی اون هستش. اگرچه، همیشه دقیق ترین و کراامد ترین راه حل نیست. </p>
+
+
+<p dir="rtl">
+چون خیلی از round robin balancer ها فکر میکنند تمام سرور ها یکسان هستند.(همشون فعال هستند، همون load را مدیریت میکنند و ظرفیت ذخیره سازی و محاسباتی یکسانی دارند) </p>
+
