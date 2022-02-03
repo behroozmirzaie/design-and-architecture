@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.399 seconds.
+Conversion time: 0.693 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 00:40:51 GMT-0800 (PST)
+* Thu Feb 03 2022 01:14:34 GMT-0800 (PST)
 * Source doc: Load Balancing
 ----->
 
@@ -130,7 +130,7 @@ Load balancer درخواست های دریافتی client  را در منابع 
 
 
 
-* جلوگیری از ارسال درخواست ها به سرورهای ناسالم
+* جلوگیری از ارسال  درخواست ها به سرورهای ناسالم
 * جلوگیری از اضافه بار منابع (Preventing overloading resources)
 * کمک به حذف نقاط شکست (eliminate single points of failure)
 
@@ -157,3 +157,29 @@ Load balancer درخواست های دریافتی client  را در منابع 
 <p dir="rtl">
 نوعی Load Balancer است که از پروتکل (TCP) استفاده می کند، که در لایه 4 - لایه انتقال the transport layer - در مدل (OSI) عمل می کند.  برای برنامه هایی که ازHTTP استفاده نمی کنند استفاده می شود. هنگامی که در مقابل یک database cluster  مستقر(deploy)  شود، یک TCP Load Balancer درخواست ها را در تمام پیکربندی های سرور موجود پخش می کند.</p>
 
+
+<p dir="rtl">
+۸- توضیح دهید Reverse Proxy Server چیست؟</p>
+
+
+<p dir="rtl">
+یک Reverse Proxy Server که بعضی اوقات با نام reverse proxy web server هم صدا زده میشه، معمولا یکی از  راهکارهای load balancer است که بین web servers وuser قرار میگیرد. شبیه به forward proxy. اگرچه، برعکس forward proxy که جلوی کاربر قرار میگیره  و از حریم خصوصی آنها محافظت میکنه، reverse proxy جلوی web server قرار میگیره و درخواست ها را شنود میکند. </p>
+
+
+<p dir="rtl">
+یک reverse proxy server مثل یک واسطه عمل می کند، با کاربران ارتابط میگیرد و بنابراین کاربران هیچ وقت به صورت مستقیم با سرور در ارتباط نیستند. همچنین درخواست های مشتری را بر اساس مکان  balance  می کند و امنیت بیشتری را ارائه می دهد.</p>
+
+
+<p dir="rtl">
+ یک سرور reverse proxy cache میتواند:</p>
+
+
+
+
+* با ذخیره محتوای محلی عملکرد را افزایش دهید
+* ویژگی ها و وجود سرورهای origin را پنهان کنید
+* حمل TLS، به آنها امکان می دهد رمزگذاری TLS را به جای وب سایت ها انجام دهند.
+* درخواست های ورودی را بین سرور ها توزیع می کند(load balancing)
+* محتواها را فشرده، بهینه میکند که باعث افزایش سرعت load می شود.
+* تست چند متغیره و A/B تست  را بدون درج جاوا اسکریپت در صفحات انجام می دهد.
+* از حمله DDoS  و سایر موارد امنیتی محافظت میکند. 
