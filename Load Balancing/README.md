@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.431 seconds.
+Conversion time: 0.399 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 00:36:45 GMT-0800 (PST)
+* Thu Feb 03 2022 00:40:51 GMT-0800 (PST)
 * Source doc: Load Balancing
 ----->
 
@@ -130,7 +130,7 @@ Load balancer درخواست های دریافتی client  را در منابع 
 
 
 
-* جلوگیری از ارسال  درخواست ها به سرورهای ناسالم
+* جلوگیری از ارسال درخواست ها به سرورهای ناسالم
 * جلوگیری از اضافه بار منابع (Preventing overloading resources)
 * کمک به حذف نقاط شکست (eliminate single points of failure)
 
@@ -148,4 +148,12 @@ Load balancer درخواست های دریافتی client  را در منابع 
 
 <p dir="rtl">
 <em>سوم) </em>Session persistence - اگر application های وب session را پیگیری نمی‌کنند، کوکی‌ها را صادر کرده و درخواست‌های یک مشتری خاص را به همان instance  هدایت میکند.</p>
+
+
+<p dir="rtl">
+۷- یک TCP Load Balancer چیست؟</p>
+
+
+<p dir="rtl">
+نوعی Load Balancer است که از پروتکل (TCP) استفاده می کند، که در لایه 4 - لایه انتقال the transport layer - در مدل (OSI) عمل می کند.  برای برنامه هایی که ازHTTP استفاده نمی کنند استفاده می شود. هنگامی که در مقابل یک database cluster  مستقر(deploy)  شود، یک TCP Load Balancer درخواست ها را در تمام پیکربندی های سرور موجود پخش می کند.</p>
 
