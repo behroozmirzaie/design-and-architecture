@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.261 seconds.
+Conversion time: 0.245 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 13:00:09 GMT-0800 (PST)
+* Thu Feb 03 2022 13:04:17 GMT-0800 (PST)
 * Source doc: Databases
 ----->
 
@@ -67,6 +67,21 @@ Conversion notes:
 * پایبندی به Schema
 * مدیریت query  در real time  (در صورتی که  اندازه داده ها کمتر از 10 ترا بایت باشد.)
 * اجرای query های پیچیده شامل join و group by
+
+
+---
+
+<p dir="rtl">
+۳- تفاوت DDL - Data Definition Language و DML -  Data manipulation Language چیست؟ </p>
+
+
+<p dir="rtl">
+DDL: دستوراتی هستند که برای تعریف پایگاه داده استفاده می شوند. CREATE، ALTER، DROP و TRUNCATE برخی از دستورات رایج DDL هستند.</p>
+
+
+<p dir="rtl">
+DML:  دستوراتی هستند که برای دستکاری داده ها استفاده می شوند. INSERT، UPDATE و DELETE برخی از دستورات رایج DML هستند.</p>
+
 
 
 ---
