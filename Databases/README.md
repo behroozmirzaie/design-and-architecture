@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.564 seconds.
+Conversion time: 0.744 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Thu Feb 03 2022 23:52:48 GMT-0800 (PST)
+* Fri Feb 04 2022 00:15:03 GMT-0800 (PST)
 * Source doc: Databases
 ----->
 
@@ -338,3 +338,21 @@ Unique Key:</p>
 <p dir="rtl">
 این منجر به جستجوهای تقریباً logb N  می شود، که در آن N تعداد رکوردها است.</p>
 
+
+
+---
+
+<p dir="rtl">
+۱۳- هزینه اینکه database index داشته باشیم چیست؟ </p>
+
+
+<p dir="rtl">
+فضا را اشغال میکند. (It takes up space) و هر چی سایز جدول بزرگتر باشد index ما هم بزگتر می شود. یکی دیگر از موفقیت‌های عملکرد ایندکس‌ها این واقعیت است که هر زمان ردیف‌هایی را در جدول مربوطه اضافه، حذف یا به‌روزرسانی می‌کنید، همان عملیات باید روی index  شما انجام شود. به یاد داشته باشید که یک index باید حاوی همان داده های لحظه ای باشد که در ستون(های) جدولی که index پوشش می دهد، باشد.</p>
+
+
+<p dir="rtl">
+به عنوان یک قاعده کلی، ایندکس تنها در صورتی باید روی یک جدول ایجاد شود که داده های ستون index شده به طور مکرر پرس و جو شوند.</p>
+
+
+
+---
